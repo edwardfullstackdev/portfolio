@@ -1,34 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio de Edward</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Edward 🚀</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>👨‍💻 Portafolio de Edward</h1>
+  <header class="hero fade-in">
+    <h1>👨‍💻 Edward Full Stack Developer</h1>
+    <p>Creando sitios web modernos impulsados por Inteligencia Artificial</p>
+    <a href="#proyectos" class="btn">Ver proyectos</a>
   </header>
 
   <main>
-    <section class="hero">
+    <section id="sobre-mi" class="card fade-in">
       <h2>Sobre mí</h2>
-      <div class="card">
-        <p>Soy Edward, aprendiz de Full Stack Developer con interés en crear sitios web modernos, rápidos y funcionales usando Inteligencia Artificial.</p>
-      </div>
+      <p>
+        Soy <strong>Edward</strong>, aprendiz de <em>Full Stack Developer</em>, apasionado por crear experiencias digitales impactantes,
+        visuales y optimizadas con herramientas de <strong>IA</strong>.
+      </p>
+    </section>
 
-      <h2>Proyectos</h2>
-      <div class="card">
-        <p>Aquí se mostrarán mis proyectos creados con HTML, CSS, JavaScript y herramientas de IA.</p>
+    <section id="proyectos" class="card fade-in">
+      <h2>Proyectos destacados</h2>
+      <div class="proyectos-grid">
+        <div class="proyecto">
+          <img src="https://source.unsplash.com/400x250/?code,ai" alt="Proyecto 1" />
+          <h3>Landing Page IA</h3>
+          <p>Diseño moderno con integración de inteligencia artificial.</p>
+        </div>
+        <div class="proyecto">
+          <img src="https://source.unsplash.com/400x250/?developer,web" alt="Proyecto 2" />
+          <h3>App del clima</h3>
+          <p>Aplicación dinámica con API y animaciones suaves.</p>
+        </div>
+        <div class="proyecto">
+          <img src="https://source.unsplash.com/400x250/?technology,design" alt="Proyecto 3" />
+          <h3>Portfolio interactivo</h3>
+          <p>Tu carta de presentación digital al mundo.</p>
+        </div>
       </div>
     </section>
   </main>
+<section id="proyectos" class="proyectos">
+  <h2>Mis Proyectos</h2>
+  <div class="galeria">
+    <div class="proyecto">
+      <img src="img/proyectos1.jpg" alt="Proyecto 1">
+      <h3>Proyecto 1</h3>
+      <p>Diseño moderno y responsivo para mi portafolio.</p>
+    </div>
 
-  <footer>
-    <p>© 2025 Edward Full Stack Dev</p>
+    <div class="proyecto">
+      <img src="img/proyectos2.jpg" alt="Proyecto 2">
+      <h3>Proyecto 2</h3>
+      <p>Aplicación web interactiva con efectos visuales.</p>
+    </div>
+  </div>
+</section>
+
+  <footer class="fade-in">
+    <p>© 2025 Edward Full Stack Dev | Hecho con 💻 y ☕</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>

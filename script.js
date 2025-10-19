@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("✅ Portafolio cargado correctamente");
-  alert("Bienvenido a mi portafolio, Edward 🚀");
+  alert("🚀 Bienvenido al portafolio de Edward");
 
-  // Aplica la animación a los elementos principales
-  document.querySelector("header").classList.add("fade-in");
-  document.querySelector("main").classList.add("fade-in");
-  document.querySelector("footer").classList.add("fade-in");
+  // Animación de entrada
+  document.querySelectorAll('.fade-in').forEach((el, i) => {
+    el.style.animationDelay = `${i * 0.3}s`;
+    el.classList.add('visible');
+  });
 });
